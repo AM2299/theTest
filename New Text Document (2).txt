@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- main of css -->
+    <link rel="stylesheet" href="css/css.css">
+    <!-- fil of normaliza -->
+    <link rel="stylesheet" href="css/normaliza.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- google icon -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <!-- start header -->
+    <div class="header">
+        <div class="container">
+            <img class="logo" src="image/img_20220117_005346_868.jpg" alt="">
+            <div class="links">
+                <span class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <ul>
+                    <li><a href="#services">service</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#abot">abot</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- start landing  -->
+    <div class="landing container">
+        <div class="intro-text">
+            <h1>Ahmed Hamza</h1>
+            <p>This is my first work , And this is the beginning</p>
+        </div>
+    </div>
+    <!-- end landing -->
+    <!-- star features -->
+    <div class="features">
+        <div class="container">
+            <div class="feat">
+                <i class="fas fa-magic fa-3x"></i>
+                <h3>Tell Us Your Idea</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque animi iusto earum porro, sequi
+                    quaerat omnis ex. Asperiores quaerat quibusdam, praesentium dolorum veritatis eius nisi quasi
+                    veniam? Voluptates, cupiditate ab?</p>
+            </div>
+            <div class="feat">
+                <i class="fas fa-gem fa-3x"></i>
+                <h3>We Will Do All The Work</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque animi iusto earum porro, sequi
+                    quaerat omnis ex. Asperiores quaerat quibusdam, praesentium dolorum veritatis eius nisi quasi
+                    veniam? Voluptates, cupiditate ab?</p>
+            </div>
+            <div class="feat">
+                <i class="fas fa-globe-asia fa-3x"></i>
+                <h3>Your Product Is Worldwide</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque animi iusto earum porro, sequi
+                    quaerat omnis ex. Asperiores quaerat quibusdam, praesentium dolorum veritatis eius nisi quasi
+                    veniam? Voluptates, cupiditate ab?</p>
+            </div>
+        </div>
+    </div>
+    <!-- end features -->
+    <!-- start services -->
+    <div class="services" id="services">
+        <div class="container">
+            <h2 class="special-heading">services</h2>
+            <p>Don't be busy, be Productive</p>
+            <div class="services-content">
+                <div class="col">
+                    <div class="srv">
+                        <i class="fas fa-palette fa-2x"></i>
+                        <div class="text">
+                            <h3>Graphic Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, explicabo cum
+                                nesciunt ipsa labore, minus facere repudiandae, debitis quidem quisquam maiores. Odio,
+                                ullam ipsum repudiandae repellat exercitationem cum. Nostrum, alias.</p>
+                        </div>
+                    </div>
+                    <div class="srv">
+                        <i class="fas fa-sketch fa-2x"></i>
+                        <div class="text">
+                            <h3>UI & UX</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, explicabo cum
+                                nesciunt ipsa labore, minus facere repudiandae, debitis quidem quisquam maiores. Odio,
+                                ullam ipsum repudiandae repellat exercitationem cum. Nostrum, alias.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="srv">
+                        <i class="fas fa-pencil-ruler fa-2x"></i>
+                        <div class="text">
+                            <h3>Graphic Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, explicabo cum
+                                nesciunt ipsa labore, minus facere repudiandae, debitis quidem quisquam maiores. Odio,
+                                ullam ipsum repudiandae repellat exercitationem cum. Nostrum, alias.</p>
+                        </div>
+                    </div>
+                    <div class="srv">
+                        <i class="fas fa-vector-square fa-2x"></i>
+                        <div class="text">
+                            <h3>UI & UX</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, explicabo cum
+                                nesciunt ipsa labore, minus facere repudiandae, debitis quidem quisquam maiores. Odio,
+                                ullam ipsum repudiandae repellat exercitationem cum. Nostrum, alias.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image image-">
+                        <img src="image/IMG_20210525_144905_099.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end services -->
+    <!-- start portfolio -->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="special-heading">portfolio</h2>
+            <p>If you do it right, it will last forever.</p>
+            <div class="portfolio-content">
+                <div class="card">
+                    <img src="image/IMG_20210525_144920_880.jpg" alt="">
+                    <div class="info">
+                        <h3>project here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam expedita fugiat id animi minus
+                            ad quis consequuntur aut ea, similique nihil necessitatibus, dolore quae, beatae nobis
+                            provident et dolor assumenda?
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/IMG_20211006_022118_537.jpg" alt="">
+                    <div class="info">
+                        <h3>project here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam expedita fugiat id animi minus
+                            ad quis consequuntur aut ea, similique nihil necessitatibus, dolore quae, beatae nobis
+                            provident et dolor assumenda?
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/IMG_20211006_022124_179.jpg" alt="">
+                    <div class="info">
+                        <h3>project here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam expedita fugiat id animi minus
+                            ad quis consequuntur aut ea, similique nihil necessitatibus, dolore quae, beatae nobis
+                            provident et dolor assumenda?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end portfolio -->
+    <!-- start abot -->
+    <div class="abot" id="abot">
+        <div class="container">
+            <h2 class="special-heading">abot</h2>
+            <p>less is more work</p>
+            <div class="abot-content">
+
+                <div class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex ipsam, commodi mollitia a
+                        culpa dolorum libero magni atque architecto corrupti porro quod animi! Dolores tenetur provident
+                        autem nobis assumenda!
+                    </p>
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste enim laudantium, error cum nihil
+                        soluta, ab a libero voluptatum quos est consectetur debitis voluptatem quam molestias! Ad
+                        exercitationem molestiae nulla!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end abot -->
+    <!-- start contact -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h2 class="special-heading">contact</h2>
+            <p>We are born to create</p>
+            <div class="info">
+                <p class="label">fell free to drop us a line at:</p>
+                <a href="mailto:ahmed.128hemzh@gmail.com" class="link">Ahmed.128hemzh@gmail.com</a>
+                <div class="social">
+                    Find Us on Social Networks:
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer -->
+    <div class="footer">
+        &copy;2022/1/11 <span>Ahmed M Hamza</span>
+    </div>
+    <!-- end footer -->
+</body>
+
+</html>
